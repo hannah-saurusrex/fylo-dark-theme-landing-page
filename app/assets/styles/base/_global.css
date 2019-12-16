@@ -3,6 +3,9 @@
     --main: hsl(218, 28%, 13%);
     --footer: hsl(216, 53%, 9%);
     --testimonials: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%); /* (inside call-to-action gradient) */
+    --blue: hsl(198, 60%, 50%); /* (inside call-to-action gradient) */
+    --white: hsl(0, 0%, 100%);
 }
 
 html {
@@ -10,6 +13,7 @@ html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.143rem;
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
 }
