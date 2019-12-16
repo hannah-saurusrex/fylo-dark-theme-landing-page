@@ -1,3 +1,7 @@
+footer {
+    background-color: var(--footer);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
