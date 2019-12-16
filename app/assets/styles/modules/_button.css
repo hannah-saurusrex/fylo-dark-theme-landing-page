@@ -7,4 +7,11 @@
     font-size: 18px;
     letter-spacing: 1px;
     padding: .937rem 2.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button-cta:hover {
+    background-image: linear-gradient(to right, hsl(176, 68%, 74%), hsl(198, 60%, 60%));
 }
