@@ -1,0 +1,26 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "logo nav";
+}
+
+.logo {
+    grid-area: logo;
+    margin-top: 8px;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+}
+
+.menu {
+    grid-area: nav;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+}
