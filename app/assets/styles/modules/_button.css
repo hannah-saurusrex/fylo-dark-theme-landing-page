@@ -1,11 +1,11 @@
 .button-cta {
-    align-items: center;
+    width: 80%;
     background-image: linear-gradient(to right, var(--cyan), var(--blue));
     color: var(--white);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     border-radius: 1.875rem;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding: .937rem 2.5rem;
     cursor: pointer;

@@ -1,8 +1,12 @@
+.hero {
+    text-align: center;
+    margin-bottom: 5.31rem;
+}
+
 .hero--headline {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-top: 1.56rem;
-    text-align: center;
     font-size: 24px;
     letter-spacing: 1.25px;
     line-height: 2.125rem;
@@ -13,7 +17,6 @@
     letter-spacing: .5px;
     margin: 15px 15px 40px 15px;
     font-size: 14px;
-    text-align: center;
     line-height: 1.25rem;
     font-weight: 300;
 }
