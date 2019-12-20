@@ -42,3 +42,11 @@
     letter-spacing: .6px;
     color: var(--cyan);
 }
+
+.content--about__cta:after {
+    content: "";
+    display: block;
+    border-bottom: 1.25px solid var(--cyan);
+    width: 41%;
+    padding-top: 3px;
+}
