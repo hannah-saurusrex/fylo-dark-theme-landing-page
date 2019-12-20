@@ -41,6 +41,7 @@
     font-size: 12px;
     letter-spacing: .6px;
     color: var(--cyan);
+    cursor: pointer;
 }
 
 .content--about__cta:after {
@@ -49,4 +50,5 @@
     border-bottom: 1.25px solid var(--cyan);
     width: 41%;
     padding-top: 3px;
+    cursor: pointer;
 }
