@@ -1,0 +1,9 @@
+.content--testimonials__quote-icon img {
+    width: 8%;
+}
+
+.content--testimonials__testimonial {
+    background-color: var(--testimonials);
+    width: 90%;
+    padding: 5px;
+}
