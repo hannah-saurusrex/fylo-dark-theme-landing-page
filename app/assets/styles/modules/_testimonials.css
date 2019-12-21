@@ -19,3 +19,19 @@
     font-weight: 400;
     line-height: 1.25rem;
 }
+
+.content--testimonials__photo {
+    border-radius: 80px;
+    width: 12%;
+}
+
+.content--testimonials__name {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.content--testimonials__title {
+    font-size: 10px;
+    display: block;
+}
