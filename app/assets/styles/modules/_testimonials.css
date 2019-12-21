@@ -1,9 +1,21 @@
+.content--testimonials {
+    padding-top: 85px;
+}
+
 .content--testimonials__quote-icon img {
     width: 8%;
 }
 
 .content--testimonials__testimonial {
     background-color: var(--testimonials);
-    width: 90%;
-    padding: 5px;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 0 0 25px 0;
+}
+
+.content--testimonials__text {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.25rem;
 }
