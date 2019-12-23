@@ -1,0 +1,7 @@
+.signup {
+    text-align: center;
+    margin-top: 125px;
+    background-color: var(--intro);
+    padding: 40px 10px;
+    border-radius: 5px;
+}
