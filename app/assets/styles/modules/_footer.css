@@ -1,5 +1,6 @@
 footer {
     background-color: var(--footer);
+    font-size: 16px;
 }
 
 .attribution { 
@@ -17,4 +18,8 @@ footer {
 
 .footer--content__text {
     display: block;
+}
+
+.footer--content__navigation ul {
+    list-style: none;
 }
