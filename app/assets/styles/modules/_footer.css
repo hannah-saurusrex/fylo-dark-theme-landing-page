@@ -10,3 +10,11 @@ footer {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+.footer--content__icon {
+    display: inline;
+}
+
+.footer--content__text {
+    display: block;
+}
