@@ -13,12 +13,20 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
+.footer--content {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-areas: 
+    "icon content";
+}
+
 .footer--content__icon {
-    display: inline;
+    grid-area: icon;
+    padding-top: 18px;
 }
 
 .footer--content__text {
-    display: block;
+    grid-area: content;
 }
 
 .footer--content__navigation ul {
