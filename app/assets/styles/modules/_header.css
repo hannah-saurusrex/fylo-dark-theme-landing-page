@@ -11,8 +11,7 @@
 }
 
 .logo img {
-    width: 80%;
-    height: 80%;
+    width: 50%;
 }
 
 .menu {
@@ -23,6 +22,8 @@
     list-style: none;
     font-size: 12px;
     display: flex;
+    justify-content: space-around;
+    padding: 0 1px;
 }
 
 .menu ul li {
