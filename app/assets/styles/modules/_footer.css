@@ -40,15 +40,26 @@ footer {
 }
 
 .footer--content__social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    margin: 60px 0;
+    justify-content: space-evenly;
 }
 
 .footer--content__social svg {
+    margin: 60px 0;
     fill: white;
-    width: 35px;
-    padding: 8px 10px;
-    border: 1px solid white;
-    border-radius: 80%;
+    width: 25px;
+    height: 25px;
+    display: block;
+    text-align: center;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    line-height: 40px;
+    padding: 5px;
+    cursor: pointer;
 }
