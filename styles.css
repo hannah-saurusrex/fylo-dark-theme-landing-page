@@ -1,10 +1,27 @@
-@import "./base/_global.css";
-@import "./modules/_footer.css";
-@import "./modules/_button.css";
-@import "./modules/_wrapper.css";
-@import "./modules/_header.css";
-@import "./modules/_image.css";
-@import "./modules/_hero.css";
-@import "./modules/_content.css";
-@import "./modules/_testimonials.css";
-@import "./modules/_signup.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+    /* primary */
+    --introBlue: hsl(217, 28%, 15%); /* (intro and email sign up background) */
+    --bodyBlue: hsl(218, 28%, 13%); /* (main background) */
+    --footerBlue: hsl(216, 53%, 9%); /* (footer background) */
+    --testimonialBlue: hsl(219, 30%, 18%); /* (testimonials background) */
+    /* accent */
+    --cyan: hsl(176, 68%, 64%); /* (inside call-to-action gradient) */
+    --blue: hsl(198, 60%, 50%); /* (inside call-to-action gradient) */
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* body */
+    background-color: var(--bodyBlue);
+    color: var(--white);
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif; /* headings, CTAs, header nav */
+}
