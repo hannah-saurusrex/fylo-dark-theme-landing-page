@@ -58,6 +58,7 @@ p {
 /* nav styling */
 nav {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	padding: 15px;
@@ -76,6 +77,15 @@ nav {
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.75px;
+}
+
+.hamburger {
+	background: transparent;
+	border: 0;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
 }
 
 /* hero styling */
@@ -278,6 +288,21 @@ footer .flex {
 
 /* mobile styles */
 @media screen and (max-width: 767px) {
+	.nav-ul {
+		display: none;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+
+	.nav-ul.show {
+		display: flex;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
 	.btn {
 		width: 100%;
 	}
